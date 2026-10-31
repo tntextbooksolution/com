@@ -1,0 +1,25 @@
+# robots.txt for www.tntextbooksolution.com
+
+User-agent: *
+# Allow all crawlers full access
+Allow: /
+
+# Optional: block access to internal or irrelevant directories, if they exist
+# For example, if you have admin or staging areas
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+# Add any other directories like backups, drafts, or user data you don't want crawled
+# Disallow: /backup/
+# Disallow: /drafts/
+
+# Prevent crawling of query parameters (if applicable)
+# User-agent: *
+# Disallow: /*?*
+
+# Sitemap location to help search engines index efficiently
+Sitemap: https://www.tntextbooksolution.com/sitemap.xml
+
+# Helpful crawl delay to prevent server overload (optional)
+# Crawl-delay: 10
